@@ -1,0 +1,9 @@
+version: "3"
+services:
+  product-services:
+    build: .     
+    volumes:
+      - .:/usr/src/audio_spliter
+    ports:
+      - 5001:80
+    
